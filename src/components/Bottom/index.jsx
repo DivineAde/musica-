@@ -128,7 +128,7 @@ const Bottom = () => {
 
         <div className="flex flex-col items-center">
           <div className="flex gap-x-3">
-          <FontAwesomeIcon icon={faShuffle} className="text-slate-50 w-7 h-7" />
+          <FontAwesomeIcon icon={faShuffle} className="text-slate-50 w-6 h-6" />
           <FontAwesomeIcon
             icon={faBackwardStep}
             onClick={handlePreviousSong}
@@ -149,12 +149,12 @@ const Bottom = () => {
             onClick={handleNextSong}
             className="text-slate-50 w-7 h-7 cursor-pointer"
           />
-          <FontAwesomeIcon icon={faRepeat} className="text-slate-50 w-7 h-7" />
+          <FontAwesomeIcon icon={faRepeat} className="text-slate-50 w-6 h-6" />
           </div>
           <div>
           <input
             type="range"
-            className="w-64 my-range"
+            className="w-64 md:w-32 my-range"
             min="0"
             max={maxTime}
             value={currentTime}

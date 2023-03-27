@@ -28,7 +28,7 @@ const Hero = ({ endpoint: { title, release, items, songs } }) => {
 
             <div className="md:nike-container mt-6 relative">
               <h1 className="text-slate-100 font-bold mb-2">{release}</h1>
-              <div className="flex flex-row gap-x-6 overflow-scroll scroll-smooth scroll-hidden">
+              <div className="flex flex-row gap-x-4 overflow-scroll scroll-smooth scroll-hidden pb-16">
                 {songs?.map((img, i) => (
                   <Release {...img} key={i} />
                 ))}

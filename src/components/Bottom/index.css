@@ -1,0 +1,13 @@
+.bg-bottoms {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+/* Change the color of the range track */
+input[type="range"] {
+  background-color: linear-gradient(#ff4500, #ff4500);
+}

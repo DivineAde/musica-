@@ -15,7 +15,7 @@ const Hero = ({ endpoint: { title, release, items, songs } }) => {
                 <img src={hero_sm} alt="hero_sm" className="md:nike-container hidden md:block" />
                 <img src={hero_lg} alt="hero_lg" className="md:hidden block mmd:min-h-[100%]" />
               </div>
-              <div className="md:nike-container w-1/2 md:w-full">
+              <div className="pl-2 md:nike-container w-1/2 md:w-full">
                 <h1 className="text-slate-100 font-bold md:mb-2">{title}</h1>
                 <div className="flex flex-col md:flex-row md:gap-6 overflow-scroll scroll-smooth scroll-hidden">
                   {items?.map((item, i) => (
